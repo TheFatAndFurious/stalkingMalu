@@ -1,7 +1,7 @@
-import {Schema} from "effect";
+import { Schema } from 'effect';
 
 export const DeviceConfig = Schema.Struct({
-    samplingRateHz: Schema.Number,
-})
+  samplingRateHz: Schema.Number,
+});
 
-export type DeviceConfig = typeof DeviceConfig.Type
+export type DeviceConfig = typeof DeviceConfig.Type;

@@ -1,7 +1,7 @@
-import { Schema } from "effect"
+import { Schema } from 'effect';
 
 export const TemperaturePayload = Schema.Struct({
-    temperature: Schema.Number,
-})
+  temperature: Schema.Number,
+});
 
 export type TemperaturePayload = typeof TemperaturePayload.Type;

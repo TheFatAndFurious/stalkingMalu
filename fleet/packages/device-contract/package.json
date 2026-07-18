@@ -16,7 +16,7 @@
     }
   },
   "dependencies": {
-    "tslib": "^2.3.0",
-    "effect": "catalog:"
+    "effect": "catalog:",
+    "tslib": "^2.3.0"
   }
 }
